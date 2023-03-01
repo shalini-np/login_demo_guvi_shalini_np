@@ -1,7 +1,6 @@
 <?php
-
-// include 'config.php';
-$conn = mysqli_connect('localhost','shalu','123456','login_page_db') or die('connection failed');
+include 'config.php';
+//$conn = mysqli_connect('localhost','shalu','123456','login_page_db') or die('connection failed');
 session_start();
 
 if(isset($_POST['submit'])){
@@ -31,7 +30,7 @@ if(isset($_POST['submit'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>login</title>
 
-   <!-- custom css file link  -->
+   
    <link rel="stylesheet" href="css/style.css">
 
 </head>
